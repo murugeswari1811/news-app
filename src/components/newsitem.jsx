@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import pm from '../assets/pm.avif'
 
 const Newsitem = ({category}) => {
     const [article,setArticle]=useState([]);
